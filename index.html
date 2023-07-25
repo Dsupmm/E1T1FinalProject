@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Website</title>
+    <style>
+        /* Reset default margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set a blue background color for the body */
+        body {
+            background-color: #f0f5ff; /* Light blue background color */
+            color: #333; /* Dark text color */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Center the content */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Style the header navigation */
+        header {
+            background-color: #3f51b5; /* Blue header background color */
+            padding: 10px;
+            width: 100%;
+        }
+
+        /* Style the hero section */
+        .hero {
+            background-color: #1a237e; /* Dark blue hero background color */
+            color: #fff; /* White text color */
+            padding: 50px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the navigation bar */
+        header nav {
+            background-color: #3f51b5; /* Blue header background color */
+            padding: 20px; /* Increase the padding to make the navigation bar longer */
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex; /* Make the navigation items display in a row */
+            justify-content: center; /* Center align the navigation items */
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff; /* White link color */
+            text-decoration: none;
+            padding: 15px 25px; /* Adjust the padding to make the links more prominent */
+            border-radius: 5px; /* Add rounded corners to the navigation items */
+        }
+
+        header nav ul li a:hover {
+            background-color: #303f9f; /* Darker blue background color on hover */
+        }
+
+        /* Style the book collection section */
+        .book-collection {
+            background-color: #e3f2fd; /* Light blue book collection background color */
+            padding: 50px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .book-collection h2 {
+            color: #3f51b5; /* Dark blue heading color */
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the book grid */
+        .book-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .book-item {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .book-item img {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+
+        /* Style the about section */
+        .about {
+            background-color: #90caf9; /* Medium blue about section background color */
+            padding: 50px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .about h2 {
+            color: #1565c0; /* Darker blue heading color */
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the contact section */
+        .contact {
+            background-color: #64b5f6; /* Lighter blue contact section background color */
+            padding: 50px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .contact h2 {
+            color: #0d47a1; /* Even darker blue heading color */
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #3f51b5; /* Blue footer background color */
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        footer p {
+            color: #fff; /* White text color */
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to the Library</h1>
+            <p>Explore a world of knowledge with our vast collection of books.</p>
+            <a href="https://sfpl.bibliocommons.com/" class="btn">Browse Books</a>
+        </div>
+    </section>
+
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://sfpl.bibliocommons.com/">Books</a></li>
+                <li><a href="https://e1t1-sfpl-replit.danielsupm05.repl.co">About</a></li>
+                <li><a href="https://brief-even-drug.glitch.me/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="book-collection">
+        <h2>Featured Books</h2>
+        <div class="book-grid">
+           
+            <div class="book-item">
+                <img src="https://www.syndetics.com/index.aspx?isbn=9780691167145&issn=/LC.JPG&client=sfpl&type=xw12" alt="Book 1">
+                <h3>On Inequality</h3>
+                <p>Author: Harry G. Frankfurt</p>
+                <p>Genre: Non-fiction</p>
+                <a href="https://sfpl.bibliocommons.com/v2/record/S93C3025274" class="btn">Details</a>
+            </div>
+
+            
+            <div class="book-item">
+                <img src="https://www.syndetics.com/index.aspx?isbn=9781974720569&issn=/LC.JPG&client=sfpl&type=xw12" alt="Book 2">
+                <h3>Zom 100</h3>
+                <p>Author: Haro, Aso</p>
+                <p>Genre: Seinen Manga/action/comedy </p>
+                <a href="https://sfpl.bibliocommons.com/v2/record/S93C4710608" class="btn">Details</a>
+            </div>
+
+            <div class="book-item">
+                <img src="https://www.syndetics.com/index.aspx?isbn=9780063250833&issn=/LC.JPG&client=sfpl&type=xw12&oclc=1341438278" alt="Book 3">
+                <h3>Yellowface</h3>
+                <p>Author: R. F. Kuang </p>
+                <p>Genre: Psychological Fiction</p>
+                <a href="https://www.syndetics.com/index.aspx?isbn=9780063250833&issn=/LC.JPG&client=sfpl&type=xw12&oclc=1341438278" class="btn">Details</a>
+            </div>
+
+            
+        </div>
+    </section>
+
+   
+    <section class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to our library! We have a wide collection of books for all ages and interests. Visit us to explore the world of literature.</p>
+            <a href="https://e1t1-sfpl-replit.danielsupm05.repl.co" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    
+    <section class="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Reach out to us.</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+  
+    <footer>
+        <p>&copy; 2023 SF Public Library. All rights reserved.</p>
+    </footer>
+</body>
+</html>

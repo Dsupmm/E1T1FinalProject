@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Website</title>
+    <style>
+        /* Reset default margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set a blue background color for the body */
+        body {
+            background-color: #f0f5ff; /* Light blue background color */
+            color: #333; /* Dark text color */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the header navigation */
+        header {
+            background-color: #3f51b5; /* Blue header background color */
+            padding: 10px;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff; /* White link color */
+            text-decoration: none;
+        }
+
+        /* Style the hero section */
+        .hero {
+            background-color: #1a237e; /* Dark blue hero background color */
+            padding: 50px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            color: #fff; /* White text color */
+        }
+
+        .hero p {
+            color: #c5cae9; /* Light blue text color */
+        }
+
+        /* Style the book collection section */
+        .book-collection {
+            background-color: #e3f2fd; /* Light blue book collection background color */
+            padding: 50px;
+            text-align: center;
+        }
+
+        .book-collection h2 {
+            color: #3f51b5; /* Dark blue heading color */
+        }
+
+        /* Style the about section */
+        .about {
+            background-color: #90caf9; /* Medium blue about section background color */
+            padding: 50px;
+            text-align: center;
+        }
+
+        .about h2 {
+            color: #1565c0; /* Darker blue heading color */
+        }
+
+       
